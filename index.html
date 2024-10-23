@@ -3,27 +3,49 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title> Meu Site</title>
+    <title>Meu Site</title>
     <link rel="stylesheet" href="style.css"> 
     <link href="https://fonts.googleapis.com/css2?family=Alfa+Slab+One&display=swap" rel="stylesheet">
     <style> 
+    .seletor {
+    width: 500px;
+    height: 10px ;
+    margin: 40px auto ;
+    margin-right: 50px;
+    margin-top: 20px;
+    padding: 22px;
+    font-size: 20px;
+    font-family: Alfa Slab One; 
+    background-color: whitesmoke; 
+    color: white; 
+    border-radius: 110px;
+    border: 2px solid black;
+    text-shadow: 2px 2px 0px black, 
+                     -1px -1px 0px black, 
+                     1px -1px 0px black, 
+                     -1px 1px 0px black; 
+        text-align: center;
+        line-height: 1px; 
+    }
     .texto {
-    width: 88%;
-    height: 90px ;
+    width: 400px;
+    height: 1px ;
     margin: 20px auto;
-    padding: 30px;
+    margin-right: 100px;
+    margin-top: 10px;
+    padding: 22px;
     font-size: 20px;
     font-family: Alfa Slab One; 
     background-color: #003366; 
-    color: white;
-    border: 1px solid black;
-    border-radius: 10px;
+    color: white; 
+    border-radius: 110px;
     border: 1px solid black;
     text-shadow: 1px 1px 0px black, 
                      -1px -1px 0px black, 
                      1px -1px 0px black, 
                      -1px 1px 0px black; 
-        text-align: right; 
+        text-align: center;
+        line-height: 1px;  
         }
         .texto:hover {
         text-decoration: underline;
@@ -33,21 +55,24 @@
         text-decoration: underline;
         } 
     .texto2 {
-            width: 88%;
-            height: 90px;
-            margin: 20px auto;
-            padding: 30px;
+            width: 400px;
+            height: 10px;
+            margin: 20px auto ;
+            margin-right: 100px;
+            margin-top: 16px; 
+            padding: 22px;
             font-size: 20px;
             font-family: Alfa Slab One;
             background-color: yellow;  
             color: white; 
             border: 1px solid black;
-            border-radius: 10px;
+            border-radius: 110px;
             text-shadow: 1px 1px 0px black, 
                          -1px -1px 0px black, 
                          1px -1px 0px black, 
                          -1px 1px 0px black; 
-            text-align: right;
+            text-align: center;
+            line-height: 1px;
     }
     .texto2:hover {
         text-decoration: underline;
@@ -57,21 +82,24 @@
         text-decoration: underline;
         } 
     .texto3 {
-            width: 88%;
-            height: 90px;
-            margin: 20px auto;
-            padding: 30px;
+            width: 400px;
+            height: 10px;
+            margin: 20px auto ;
+            margin-right: 100px;
+            margin-top: 16px;
+            padding: 22px;
             font-size: 20px;
             font-family: Alfa Slab One;
             background-color: red; 
             color: white; 
             border: 1px solid black;
-            border-radius: 10px;
+            border-radius: 110px;
             text-shadow: 1px 1px 0px black, 
                          -1px -1px 0px black, 
                          1px -1px 0px black, 
                          -1px 1px 0px  black;
-            text-align: right;
+            text-align: center;
+            line-height: 1px;
     }
     .texto3:hover {
         text-decoration: underline;
@@ -81,45 +109,51 @@
         text-decoration: underline;
         } 
     .texto4 {
-            width: 88%;
-            height: 90px;
-            margin: 20px auto;
-            padding: 30px;
+            width: 400px;
+            height: 10px;
+            margin:  20px auto ;
+            margin-right: 100px;
+            margin-top: 16px;
+            padding: 22px;
             font-size: 20px;
             font-family: Alfa Slab One;
             background-color: #8B4513;  
             color: white; 
-            border: 1px solid black;
-            border-radius: 10px;
+            border: 2px solid black;
+            border-radius: 110px;
             text-shadow: 1px 1px 0px black, 
                          -1px -1px 0px black, 
                          1px -1px 0px black, 
                          -1px 1px 0px black; 
-            text-align: right;    
+            text-align: center; 
+            line-height: 1px;   
     }
     .texto4:hover {
-        text-decoration: underline;
+        text-decoration: none;
         transform: scale(1.1);
         }
         .texto4:active {
         text-decoration: underline;
         } 
     .texto5 {
-            width: 88%;
-            height: 90px;
-            margin: 20px auto;
-            padding: 30px;
+            width: 400px;
+            height: 10px;
+            margin: 20px auto ;
+            margin-right: 100px;
+            margin-top: 16px;
+            padding: 22px;
             font-size: 20px;
             font-family: Alfa Slab One;
-            background-color: green;  
+            background-color: greenyellow;  
             color: white;
             border: 1px solid black;
-            border-radius: 10px;
+            border-radius: 110px;
             text-shadow: 1px 1px 0px black, 
                          -1px -1px 0px black, 
                          1px -1px 0px black, 
                          -1px 1px 0px black; 
-            text-align: right;
+            text-align: center;
+            line-height: 1px;
         }
         .texto5:hover {
         text-decoration: underline;
@@ -132,9 +166,14 @@
 </head>
 <body>
     <header class="recycling-header">
-        <img src="imagem.png" alt="Clique para reproduzir" class="botao-imagem" onclick="document.getElementById('musicmario').play()" />
-    </header>
-    <div  class="texto" onmouseover="document.getElementById('mousemario').play();"
+        <img src="imagem.png" alt="Clique para reproduzir" class="botao-imagem" onclick="document.getElementById('musicmario').play()" /> <img src="Luigi.png" alt="Foto Luigi" class="fotoluigi">
+        <img src="Luigi.png" alt="fotodoluigi" class="fotoluigi">
+    </header> 
+    <div class="fundo"> 
+    <div  class="seletor" >
+        SELECIONE SUA LIXEIRA
+</div>
+     <div class="texto" onmouseover="document.getElementById('mousemario').play();"
                         onclick="document.getElementById('Clickmario').play();">
         PAPEL  
     </div>
@@ -153,6 +192,7 @@
     <div class="texto5" onmouseover="document.getElementById('mousemario5').play();"
                         onclick="document.getElementById('Clickmario5').play();">
         VIDRO
+    </div>
     </div>
         <audio id="musicmario">
             <source src="Mário.mp3" type="audio/mpeg">

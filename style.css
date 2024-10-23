@@ -22,25 +22,17 @@ body {
 
 .botao-imagem {
     max-height: 200px; 
-    margin-top: -10px;
+    margin-top: -10px; 
 }
-
- 
-.texto {
-    width: 96%;
-    height: 90px ;
-    margin: 20px auto;
-    padding: 30px;
-    font-size: 20px;
-    font-family: Alfa Slab One; 
-    background-color: #003366; 
-    color: white;
-    border: 1px solid black;
-    border-radius: 10px;
-    border: 1px solid black;
-    text-shadow: 1px 1px 0px black, 
-                     -1px -1px 0px black, 
-                     1px -1px 0px black, 
-                     -1px 1px 0px black; 
-        text-align: right;
-}
+.fotoluigi {
+    position: absolute;
+    top: 52px;
+    left: 100px;
+} 
+ .fundo{
+    background-color: #2e7d32;
+    border-radius: 15px;
+    border: 5px solid #1b5e20;
+    padding: 20px;
+    margin: 20px;
+ }
